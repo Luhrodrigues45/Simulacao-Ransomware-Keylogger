@@ -28,9 +28,9 @@ O script `ransomware.py` simula o ciclo de um ataque, focando na fase de infecç
 
 
 #### B. Mecanismos Chave
-* **Criptografia:** Utilizei o algoritmo **[Fernet]** da biblioteca `[Ex: cryptography]` para simular o sequestro de dados. A chave de criptografia é gerada e armazenada em `[Ex: Ransomware.py]`.
-* **Captura de Alvos:** O script varre o diretório `[Teste_de_Ransomware]` buscando arquivo com a extensão `[Ex: .txt]` para criptografar.
-* **Mensagem de Resgate:** Uma notificação simulada ou um arquivo `leia isso.txt` é gerado, instruindo sobre o processo de "resgate".
+* **Criptografia:** Utilizei o algoritmo **[Fernet]** da biblioteca `[cryptography]` para simular o sequestro de dados. A chave de criptografia é gerada e armazenada em `[Ransomware.py]`.
+* **Captura de Alvos:** O script varre o diretório `[Teste_de_Ransomware]` buscando arquivo com a extensão `[.txt]` para criptografar.
+* **Mensagem de Resgate:** Uma notificação simulada ou um arquivo `[leia isso.txt]` é gerado, instruindo sobre o processo de "resgate".
 
 > **⚠️ Aviso:** Este código é estritamente educacional. Execute-o apenas em máquinas virtuais isoladas ou em ambientes de teste seguros.
 
@@ -39,7 +39,7 @@ O script `ransomware.py` simula o ciclo de um ataque, focando na fase de infecç
 ### 3. ⌨️ Implementação 2: Keylogger Simulado
 
 ### A. Visão Geral do Módulo
-O script `keylogger.py` demonstra a **captura furtiva de teclas** e o **registro local dos logs**, que é o primeiro passo para a exfiltração de dados sensíveis. O código atende ao requisito de registrar em arquivo `.txt` e implementar lógica de filtragem.
+O script `[keylogger.py]` demonstra a **captura furtiva de teclas** e o **registro local dos logs**, que é o primeiro passo para a exfiltração de dados sensíveis. O código atende ao requisito de registrar em arquivo `[.txt]` e implementar lógica de filtragem.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fac54287-9183-40ce-bd92-4ce57c047d03" />
 
