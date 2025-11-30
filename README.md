@@ -55,7 +55,7 @@ O script `keylogger.py` demonstra a **captura furtiva de teclas** e o **registro
 
 ---
 
-## 5. 🛡️ Reflexão sobre Defesa e Mitigação
+## 4. 🛡️ Reflexão sobre Defesa e Mitigação
 
 A simulação prática de Ransomware e Keylogger revela a importância de uma **Estratégia de Defesa em Camadas**. A mitigação dessas ameaças exige medidas que vão desde o nível de infraestrutura até a conscientização do usuário.
 
