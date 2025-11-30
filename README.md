@@ -55,8 +55,6 @@ O script `keylogger.py` demonstra a **captura furtiva de teclas** e o **registro
 
 ---
 ## Política de Uso Ético
-
 Este projeto foi criado apenas para fins educacionais, em ambiente controlado, como parte do estudo sobre Ransomware e Keylogger.  
 O uso indevido deste código fora de laboratório é proibido.
-
 Para detalhes completos sobre responsabilidades, limites e boas práticas, consulte: 👉 [Política de Uso Ético (Security.md)](./Security.md)
