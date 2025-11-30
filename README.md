@@ -13,7 +13,7 @@ O projeto foi dividido em 2 simulações principais e 1 análise estratégica de
 **Tecnologias Utilizadas:**
 * Python;
 * Módulos principais: `[cryptography, pynput, smtplib]`
-* Ambiente: `[Ex: Windows, visual studio code]`
+* Ambiente: `[Windows e Visual studio code]`
 
 Obs: Você pode optar por testar em uma VM, o recomendado é este.
 
