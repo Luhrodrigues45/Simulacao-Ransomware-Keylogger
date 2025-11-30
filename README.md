@@ -13,3 +13,11 @@ Na parte de keylogger, o objetivo não é capturar teclas de forma invisível ou
 A lógica é simples: O script pede que eu digite algo e cada vez que eu envio uma linha, ele registra no arquivo de log. Isso mostra como, em um keylogger verdadeiro, cada tecla pressionada poderia ser gravada e enviada para um atacante. Essa abordagem deixa claro o perigo desses softwares no mundo real e o motivo de existir tanta preocupação com eles.
 
 Essa simulação reforça a importância de detectar comportamentos suspeitos, revisar processos em execução, evitar instalar programas desconhecidos e usar camadas extras de proteção, como autenticação de dois fatores. Ao ver a mecânica básica funcionando, mesmo em uma versão inofensiva, fica muito mais fácil compreender como a coleta de informações acontece em ataques reais.
+
+## Política de Uso Ético
+
+Este projeto foi criado apenas para fins educacionais, em ambiente controlado, como parte do estudo sobre Ransomware e Keylogger.  
+O uso indevido deste código fora de laboratório é proibido.
+
+Para detalhes completos sobre responsabilidades, limites e boas práticas, consulte:  
+👉 [Política de Uso Ético (SECURITY.md)](./SECURITY.md)
