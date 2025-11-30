@@ -20,4 +20,4 @@ Este projeto foi criado apenas para fins educacionais, em ambiente controlado, c
 O uso indevido deste código fora de laboratório é proibido.
 
 Para detalhes completos sobre responsabilidades, limites e boas práticas, consulte:  
-👉 [Política de Uso Ético (SECURITY.md)](./SECURITY.md)
+👉 [Política de Uso Ético (SECURITY.md)](./Security.md)
