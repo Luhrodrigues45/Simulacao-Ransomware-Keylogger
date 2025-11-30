@@ -28,9 +28,9 @@ O script `ransomware.py` simula o ciclo de um ataque, focando na fase de infecç
 
 
 #### B. Mecanismos Chave
-* **Criptografia:** Utilizei o algoritmo **[Fernet]** da biblioteca `[cryptography]` para simular o sequestro de dados. A chave de criptografia é gerada e armazenada em `[Ransomware.py]`.
-* **Captura de Alvos:** O script varre o diretório `[Teste_de_Ransomware]` buscando arquivo com a extensão `[.txt]` para criptografar.
-* **Mensagem de Resgate:** Uma notificação simulada ou um arquivo `[leia isso.txt]` é gerado, instruindo sobre o processo de "resgate".
+* **Criptografia:** Utilizei o algoritmo **[Fernet]** da biblioteca `[cryptography]` para simular o sequestro de dados. A chave de criptografia é gerada e armazenada em `Ransomware.py`.
+* **Captura de Alvos:** O script varre o diretório `Teste_de_Ransomware` buscando arquivo com a extensão `.txt` para criptografar.
+* **Mensagem de Resgate:** Uma notificação simulada ou um arquivo `leia isso.txt` é gerado, instruindo sobre o processo de "resgate".
 
 > **⚠️ Aviso:** Este código é estritamente educacional. Execute-o apenas em máquinas virtuais isoladas ou em ambientes de teste seguros.
 
@@ -39,7 +39,7 @@ O script `ransomware.py` simula o ciclo de um ataque, focando na fase de infecç
 ### 3. ⌨️ Implementação 2: Keylogger Simulado
 
 ### A. Visão Geral do Módulo
-O script `[keylogger.py]` demonstra a **captura furtiva de teclas** e o **registro local dos logs**, que é o primeiro passo para a exfiltração de dados sensíveis. O código atende ao requisito de registrar em arquivo `[.txt]` e implementar lógica de filtragem.
+O script `keylogger.py` demonstra a **captura furtiva de teclas** e o **registro local dos logs**, que é o primeiro passo para a exfiltração de dados sensíveis. O código atende ao requisito de registrar em arquivo `.txt` e implementar lógica de filtragem.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fac54287-9183-40ce-bd92-4ce57c047d03" />
 
@@ -48,10 +48,10 @@ O script `[keylogger.py]` demonstra a **captura furtiva de teclas** e o **regist
 | Mecanismo | Detalhes da Implementação |
 | :--- | :--- |
 | **Captura de Teclas** | Utilização da biblioteca **`pynput.keyboard`** e do *handler* `on_press(key)`. |
-| **Tratamento de Caracteres** | A lógica implementa um bloco `try-except AttributeError` para distinguir: **Caracteres normais** (`key.char`) de **Teclas Especiais** (como `Key.space`, `Key.enter`). |
+| **Tratamento de Caracteres** | A lógica implementa um bloco `try-except AttributeError` para distinguir: **Caracteres normais** `key.char` de **Teclas Especiais** (como `Key.space`, `Key.enter`). |
 | **Filtragem de Logs** | **Teclas de Controle (Shift, Ctrl, Alt, Caps Lock, etc.)** são definidas no dicionário `ignorar` e tratadas com `pass`, garantindo que o log se concentre apenas no conteúdo digitado pelo usuário. |
 | **Registro de Logs** | As informações são salvas no arquivo **`log.txt`** usando o modo *append* (`"a"`). |
-| **Exfiltração (E-mail)** | A função de envio automático dos logs com `[smtplib]` está em um módulo separado. Ela simula a exfiltração enviando periodicamente o conteúdo de `log.txt` para um e-mail configurado.
+| **Exfiltração (E-mail)** | A função de envio automático dos logs com `smtplib` está em um módulo separado. Ela simula a exfiltração enviando periodicamente o conteúdo de `log.txt` para um e-mail configurado.
 
 ---
 
