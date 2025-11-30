@@ -33,8 +33,6 @@ Quem utiliza este repositório assume total responsabilidade por:
 - Obedecer às leis vigentes (LGPD, Marco Civil da Internet, Lei 12.737/2012 e outras).  
 - Utilizar o conteúdo apenas de forma ética e educacional.
 
-Os autores não se responsabilizam por danos causados por uso inadequado.
-
 ---
 
 ## 4. Ambiente Obrigatoriamente Seguro
@@ -63,7 +61,6 @@ Qualquer uso que distorça esse propósito é proibido.
 
 ## 6. Declaração de Isenção
 Este projeto é fornecido **sem garantias**.  
-O usuário concorda que qualquer uso ocorre por conta e risco próprios.  
-Os autores não assumem responsabilidade por danos diretos ou indiretos resultantes de mau uso.
+O usuário concorda que qualquer uso ocorre por conta e risco próprios.
 
 ---
