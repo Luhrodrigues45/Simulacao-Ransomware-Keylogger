@@ -22,7 +22,7 @@ Obs: Você pode optar por testar em uma VM, o recomendado é este.
 ### 2. 🔐 Implementação 1: Ransomware Simulado
 
 #### A. Visão Geral:
-O script `ransomware.py` simula o ciclo de um ataque, focando na fase de infecção e criptografia. Para fins de testes e reversão segura, o script `decryptor.py` foi desenvolvido separadamente como mostra na imagem abaixo:
+O script `ransomware.py` simula o ciclo de um ataque, focando na fase de infecção e criptografia. Para fins de testes e reversão segura, o script `descriptografar.py` foi desenvolvido separadamente como mostra na imagem abaixo:
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ae74936f-8ad6-41d3-b47a-85173dfc969d" />
 
