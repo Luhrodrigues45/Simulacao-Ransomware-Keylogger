@@ -1,18 +1,41 @@
-# Projeto Simulando Malwares - Versão de Curta.
+# Simulando Ameaças Digitais: Ransomware e Keylogger para Estudo
+Este repositório documenta a conclusão do **Desafio Prático de Cibersegurança** da [Nome da Plataforma/Curso], com o objetivo de **experimentar, compreender e documentar** o funcionamento de malwares em um ambiente 100% controlado e seguro.
 
-# Ransonware:
-Como aluna, eu percebi na prática que a parte de ransomware do desafio não é sobre como criar um malware real, e sim **mostrar o comportamento* que um ataque desse tipo teria. Tudo de forma controlada e segura. A ideia aqui, é entender o impacto que um ransomware causa quando criptografa arquivos e impede o acesso ao conteúdo da vítima.
+---
 
-Na simulação, o script sequestra esses arquivos e embaralha o conteúdo como se estivesse criptografando. Isso mostra como em um ataque real, os dados deixam de fazer sentido para o usuário. Esse processo deixa bem claro como o ransomware funciona no mundo real: Ele compromete arquivos essenciais e cria dependência total da chave para restaurar tudo. Ao ver isso funcionando mesmo em teste, fica evidente porque backups e segurança preventiva são tão importantes. A simulação ajuda a compreender a mecânica do ataque sem expor ninguém a riscos.
+### 1. 🚀 Introdução e Contexto do Desafio
 
-Obs: O projeto ainda será editado com imagens e comandos da aula, amanhã, dia 30/11, no momento estou apenas colocando aqui, o entendimento do desafio.
+O projeto foi dividido em duas simulações principais e uma análise estratégica de defesa, conforme solicitado no desafio:
 
-# Keylogger:
-Na parte de keylogger, o objetivo não é capturar teclas de forma invisível ou maliciosa, e sim **entender o conceito de registro de digitação** de um jeito totalmente seguro e controlado.
+1. **Implementação de Ransomware Simulado.**
+2. **Implementação de Keylogger Simulado.**
+3. **Reflexão sobre Estratégias de Defesa e Mitigação.**
 
-A lógica é simples: O script pede que eu digite algo e cada vez que eu envio uma linha, ele registra no arquivo de log. Isso mostra como, em um keylogger verdadeiro, cada tecla pressionada poderia ser gravada e enviada para um atacante. Essa abordagem deixa claro o perigo desses softwares no mundo real e o motivo de existir tanta preocupação com eles.
+**Tecnologias Utilizadas:**
+* Python;
+* Módulos principais: `[cryptography, pynput, smtplib]`
+* Ambiente: `[Ex: Linux VM e Windows Sandbox]`
 
-Essa simulação reforça a importância de detectar comportamentos suspeitos, revisar processos em execução, evitar instalar programas desconhecidos e usar camadas extras de proteção, como autenticação de dois fatores. Ao ver a mecânica básica funcionando, mesmo em uma versão inofensiva, fica muito mais fácil compreender como a coleta de informações acontece em ataques reais.
+---
+
+### 2. 🔐 Implementação 1: Ransomware Simulado
+
+#### A. Visão Geral
+O script `ransomware.py` simula o ciclo de um ataque, focando na fase de infecção e criptografia. Para fins de testes e reversão segura, o script `decryptor.py` foi desenvolvido separadamente.
+
+#### B. Mecanismos Chave
+* **Criptografia:** Utilizei o algoritmo **[Nome do Algoritmo, ex: Fernet]** do módulo `[Ex: cryptography]` para simular o sequestro de dados. A chave de criptografia é gerada e armazenada em `[Ex: key.txt]`.
+* **Captura de Alvos:** O script varre o diretório `[Nome do Diretório de Teste]` buscando arquivos com as extensões `[Ex: .txt, .doc, .jpg]` para criptografar.
+* **Mensagem de Resgate:** Uma notificação simulada ou um arquivo `README_DECRYPT.txt` é gerado, instruindo sobre o processo de "resgate".
+
+> **⚠️ Aviso:** Este código é estritamente educacional. Execute-o apenas em máquinas virtuais isoladas ou em ambientes de teste seguros.
+
+---
+
+### 3. ⌨️ Implementação 2: Keylogger Simulado
+
+#### A. Visão Geral
+O script `keylogger.py` demonstra a exfiltração de dados sensíveis, registrando todas as teclas pressionadas e enviando o arquivo de log para um e
 
 ## Política de Uso Ético
 
