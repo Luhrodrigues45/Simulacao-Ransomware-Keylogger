@@ -19,5 +19,4 @@ Essa simulação reforça a importância de detectar comportamentos suspeitos, r
 Este projeto foi criado apenas para fins educacionais, em ambiente controlado, como parte do estudo sobre Ransomware e Keylogger.  
 O uso indevido deste código fora de laboratório é proibido.
 
-Para detalhes completos sobre responsabilidades, limites e boas práticas, consulte:  
-👉 [Política de Uso Ético (Security.md)](./Security.md)
+Para detalhes completos sobre responsabilidades, limites e boas práticas, consulte: 👉 [Política de Uso Ético (Security.md)](./Security.md)
