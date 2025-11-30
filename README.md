@@ -86,10 +86,10 @@ A maioria dos ataques de malware começa com o **Fator Humano**.
 * **Conscientização do Usuário (Phishing):** O Ransomware e o Keylogger frequentemente entram através de e-mails de **phishing** ou *malvertising*. Treinamento contínuo ajuda os usuários a identificarem anexos e links maliciosos.
 * **Patch Management:** Manter o **Sistema Operacional** e todos os aplicativos (navegadores, Java, Adobe) atualizados. Muitas vezes, o malware explora vulnerabilidades de softwares desatualizados para ser executado.
 * **Software de Segurança Atualizado:** Garantir que o Antivírus e o EDR estejam sempre rodando com as **definições de vírus mais recentes**.
-* 
+
 ---
 
 ## Política de Uso Ético
-Este projeto foi criado apenas para fins educacionais, em ambiente controlado, como parte do estudo sobre Ransomware e Keylogger.  
+Este projeto foi criado apenas para fins educacionais, como parte do estudo sobre Ransomware e Keylogger.  
 O uso indevido deste código fora de laboratório é proibido.
 Para detalhes completos sobre responsabilidades, limites e boas práticas, consulte: 👉 [Política de Uso Ético (Security.md)](./Security.md)
