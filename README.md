@@ -51,7 +51,7 @@ O script `[keylogger.py]` demonstra a **captura furtiva de teclas** e o **regist
 | **Tratamento de Caracteres** | A lógica implementa um bloco `try-except AttributeError` para distinguir: **Caracteres normais** (`key.char`) de **Teclas Especiais** (como `Key.space`, `Key.enter`). |
 | **Filtragem de Logs** | **Teclas de Controle (Shift, Ctrl, Alt, Caps Lock, etc.)** são definidas no dicionário `ignorar` e tratadas com `pass`, garantindo que o log se concentre apenas no conteúdo digitado pelo usuário. |
 | **Registro de Logs** | As informações são salvas no arquivo **`log.txt`** usando o modo *append* (`"a"`). |
-| **Exfiltração (E-mail)** | A função de envio automático dos logs com `smtplib` está em um módulo separado. Ela simula a exfiltração enviando periodicamente o conteúdo de `log.txt` para um e-mail configurado, sempre em ambiente isolado.*
+| **Exfiltração (E-mail)** | A função de envio automático dos logs com `[smtplib]` está em um módulo separado. Ela simula a exfiltração enviando periodicamente o conteúdo de `log.txt` para um e-mail configurado.
 
 ---
 
