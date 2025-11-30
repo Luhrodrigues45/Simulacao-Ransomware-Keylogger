@@ -55,7 +55,7 @@ O script `keylogger.py` demonstra a **captura furtiva de teclas** e o **registro
 
 ---
 
-## 4. 🛡️ Reflexão sobre Defesa e Mitigação
+## 4. 🛡️ Reflexão sobre Defesa e Mitigação:
 
 A simulação prática de Ransomware e Keylogger revela a importância de uma **Estratégia de Defesa em Camadas**. A mitigação dessas ameaças exige medidas que vão desde o nível de infraestrutura até a conscientização do usuário.
 
@@ -86,6 +86,19 @@ A maioria dos ataques de malware começa com o **Fator Humano**.
 * **Conscientização do Usuário (Phishing):** O Ransomware e o Keylogger frequentemente entram através de e-mails de **phishing** ou *malvertising*. Treinamento contínuo ajuda os usuários a identificarem anexos e links maliciosos.
 * **Patch Management:** Manter o **Sistema Operacional** e todos os aplicativos (navegadores, Java, Adobe) atualizados. Muitas vezes, o malware explora vulnerabilidades de softwares desatualizados para ser executado.
 * **Software de Segurança Atualizado:** Garantir que o Antivírus e o EDR estejam sempre rodando com as **definições de vírus mais recentes**.
+
+---
+
+## 5. ✅ Conclusão:
+
+Este projeto permitiu que eu:
+
+* Compreendesse o ciclo de ataques de **Ransomware** e **Keylogger**;  
+* Entender as técnicas de **mitigação e defesa em camadas**, desde backups até EDR e conscientização do usuário.  
+* Desenvolver **habilidades práticas** de análise de malware e reforçar a importância de **uso ético** do conhecimento adquirido.
+
+
+> **⚠️ Obs:** Ele reforça que estudar ameaças digitais deve sempre ser feito em laboratórios isolados, com responsabilidade e atenção à ética na cibersegurança.
 
 ---
 
