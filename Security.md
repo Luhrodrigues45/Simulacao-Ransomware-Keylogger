@@ -1,52 +1,69 @@
-# Política de Uso Ético
+# Política de Uso – Simulação de Ameaças Digitais
 
-Este projeto foi desenvolvido **exclusivamente para fins educacionais**, seguindo o desafio da DIO sobre simulação de *Ransomware* e *Keylogger* em ambiente totalmente controlado.  
-Nenhum código deve ser utilizado fora de um laboratório isolado.
+Este projeto apresenta simulações de **Ransomware** e **Keylogger** com finalidade exclusivamente **educacional**, para estudo em ambientes controlados. O código não deve ser utilizado em nenhum contexto ofensivo, invasivo ou fora de laboratório seguro.
 
-## 1. Finalidade Educacional
-O objetivo deste projeto é:
+---
 
-- compreender o funcionamento técnico de malwares;
-- estudar e documentar estratégias de defesa;
-- analisar comportamentos ofensivos em ambiente seguro;
-- desenvolver portfólio de forma ética e responsável.
+## 1. Finalidade Permitida
+O conteúdo deste repositório só pode ser usado para:
+- Estudo individual ou acadêmico.  
+- Treinamento em laboratórios isolados (VMs, sandboxes, containers, máquinas descartáveis).  
+- Análise de comportamento, defesa e mitigação de ameaças digitais.  
+- Demonstrações educativas autorizadas.
 
-Todo conhecimento aqui existe para **proteger sistemas**, nunca para atacá-los.
+Qualquer uso fora dessas finalidades é proibido.
 
-## 2. Ambiente Permitido
-A execução deste projeto deve ocorrer **somente** em:
+---
 
-- máquinas virtuais;
-- sandboxes;
-- ambientes offline;
-- laboratórios pessoais isolados;
-- sistemas onde exista autorização explícita.
+## 2. Restrições
+É expressamente proibido:
+- Executar estes scripts em máquinas de terceiros, ambientes corporativos ou sistemas em produção.  
+- Modificar, distribuir ou reutilizar este código com intenção de causar dano.  
+- Usar como base para ataques reais, invasões ou coleta indevida de dados.  
+- Realizar qualquer forma de exfiltração real usando partes deste código.  
+- Compartilhar instruções de uso malicioso.
 
-Executar estes scripts em computadores reais, redes corporativas ou dispositivos de terceiros é proibido.
+Violação dessas regras pode constituir crime segundo legislações de segurança e crimes digitais.
 
-## 3. Proibições
-É estritamente proibido:
+---
 
-- usar o código para qualquer ação maliciosa ou ilegal;
-- adaptar o projeto para infectar sistemas reais;
-- capturar dados de outras pessoas sem consentimento;
-- distribuir o código como malware;
-- realizar testes sem autorização formal.
+## 3. Responsabilidade do Usuário
+Quem utiliza este repositório assume total responsabilidade por:
+- Qualquer ação derivada do uso deste material.  
+- Obedecer às leis vigentes (LGPD, Marco Civil da Internet, Lei 12.737/2012 e outras).  
+- Utilizar o conteúdo apenas de forma ética e educacional.
 
-Qualquer uso fora do contexto educacional constitui **atividade criminosa**.
+Os autores não se responsabilizam por danos causados por uso inadequado.
 
-## 4. Responsabilidade Individual
-Ao utilizar este repositório, você é responsável por:
+---
 
-- garantir que o uso ocorre somente em ambientes seguros;
-- evitar qualquer impacto indesejado em sistemas reais;
-- seguir a legislação vigente;
-- manter o uso estritamente ético.
+## 4. Ambiente Obrigatoriamente Seguro
+Os scripts devem ser executados somente em:
+- Máquinas virtuais isoladas.  
+- Ambientes desconectados de sistemas reais.  
+- Infraestruturas destinadas ao estudo de malware.
 
-O mantenedor do projeto **não se responsabiliza** por danos causados pelo uso indevido.
+Jamais execute em:
+- Computador pessoal principal.  
+- Hardware de trabalho.  
+- Servidores ou redes produtivas.
 
-## 5. Objetivo Central: Defesa, Não Ataque
-O estudo de ameaças é parte essencial da segurança cibernética.  
-Este projeto existe para demonstrar como detectar, mitigar e se proteger de ataques reais.
+---
 
-A proposta é formar profissionais conscientes — nunca incentivar práticas maliciosas.
+## 5. Propósito do Projeto
+O repositório foi criado para:
+- Compreender mecanismos de ataque.  
+- Desenvolver análise, mitigação e defesa.  
+- Fortalecer habilidades práticas de cibersegurança.  
+- Incentivar o estudo seguro e responsável.
+
+Qualquer uso que distorça esse propósito é proibido.
+
+---
+
+## 6. Declaração de Isenção
+Este projeto é fornecido **sem garantias**.  
+O usuário concorda que qualquer uso ocorre por conta e risco próprios.  
+Os autores não assumem responsabilidade por danos diretos ou indiretos resultantes de mau uso.
+
+---
