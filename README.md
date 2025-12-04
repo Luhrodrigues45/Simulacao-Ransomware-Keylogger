@@ -90,11 +90,11 @@ A simulação prática de Ransomware e Keylogger revela a importância de uma **
 - Firewall: impedir tráfego SMTP suspeito corta o canal de envio.
 
 **4.3 Mitigação Focada no Fator Humano:**
-A maioria dos ataques de malware começa com o **Fator Humano**.
+A maioria dos ataques de malware começa com o **Fator Humano:**
 
-* **Conscientização do Usuário (Phishing):** O Ransomware e o Keylogger frequentemente entram através de e-mails de **phishing** ou *malvertising*. Treinamento contínuo ajuda os usuários a identificarem anexos e links maliciosos.
-* **Patch Management:** Manter o **Sistema Operacional** e todos os aplicativos (navegadores, Java, Adobe) atualizados. Muitas vezes, o malware explora vulnerabilidades de softwares desatualizados para ser executado.
-* **Software de Segurança Atualizado:** Garantir que o Antivírus e o EDR estejam sempre rodando com as **definições de vírus mais recentes**.
+* Conscientização do Usuário (Phishing): O Ransomware e o Keylogger frequentemente entram através de e-mails de phishing ou malvertising. Treinamento contínuo ajuda os usuários a identificarem anexos e links maliciosos.
+* Patch Management: Manter o Sistema Operacional e todos os aplicativos (navegadores, Java, Adobe) atualizados. Muitas vezes, o malware explora vulnerabilidades de softwares desatualizados para ser executado;
+* Software de Segurança Atualizado: Garantir que o Antivírus e o EDR estejam sempre rodando com as definições de vírus mais recentes.
 
 <br>
 
@@ -103,7 +103,7 @@ A maioria dos ataques de malware começa com o **Fator Humano**.
 Este projeto permitiu que eu:
 
 * Compreendesse o ciclo de ataques de **Ransomware** e **Keylogger**;  
-* Entender as técnicas de **mitigação e defesa em camadas**, desde backups até EDR e conscientização do usuário.  
+* Entender as técnicas de **mitigação e defesa em camadas**, desde backups até EDR e conscientização do usuário;
 * Desenvolver **habilidades práticas** de análise de malware e reforçar a importância de **uso ético** do conhecimento adquirido.
 
 
@@ -111,10 +111,10 @@ Este projeto permitiu que eu:
 
 <br>
 
-## Política de Uso Ético
-Este projeto foi criado apenas para fins educacionais, como parte do estudo sobre Ransomware e Keylogger.  
-O uso indevido deste código fora de laboratório é proibido.
-Para detalhes completos sobre responsabilidades, limites e boas práticas, consulte: 👉 [Política de Uso Ético](./Security.md)
+# 6. 🛑 Política de Uso Ético
+Este projeto é estritamente educacional.<br>
+Seu uso é permitido somente em ambientes isolados, sem afetar terceiros.<br>
+Para responsabilidades, limites e boas práticas, consulte: 👉 [Política de Uso Ético](./Security.md)
 
 <br>
 
