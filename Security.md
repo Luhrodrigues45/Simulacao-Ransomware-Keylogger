@@ -1,4 +1,4 @@
-# Política de Uso – Simulação de Ameaças Digitais
+# 🛑 Política de Uso – Simulação de Ameaças Digitais
 
 Este projeto apresenta simulações de **Ransomware** e **Keylogger** com finalidade exclusivamente **educacional**, para estudo em ambientes controlados. O código não deve ser utilizado em nenhum contexto ofensivo, invasivo ou fora de laboratório seguro.
 
