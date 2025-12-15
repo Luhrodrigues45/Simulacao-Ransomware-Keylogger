@@ -2,7 +2,7 @@
 Este repositório documenta a conclusão do **Desafio Prático de Cibersegurança** da [Dio](https://web.dio.me/track/santander-ciberseguranca-2025), com o objetivo de **experimentar, compreender e documentar** o funcionamento de malwares em um ambiente 100% controlado e seguro.
 
 <p align="center">
-  <a href="https://web.dio.me/track/4f411d51-fbae-475b-91e4-560f2fcc1137" target="_blank">
+  <a href="https://web.dio.me/track/santander-ciberseguranca-2025" target="_blank">
   <img
     src="https://img.shields.io/static/v1?label=DIO&message=Education&color=E94D5F&labelColor=202024" alt="DIO Project" />
 </p>
